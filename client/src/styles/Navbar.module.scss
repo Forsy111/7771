@@ -1,0 +1,32 @@
+@import 'variables';
+
+.Navbar {
+  width: 100%;
+  padding: 1rem;
+  top: 0;
+}
+
+.NavbarMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // align-items: stretch;
+}
+
+.firstElement {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+}
+
+.button {
+    display: flex;
+    background-color: #727272;
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+    max-width: auto;
+  }

@@ -1,0 +1,53 @@
+.SearchBarcomponant {
+  margin-bottom: 10px;
+  width: 97%;
+  margin-left: 1.5%;
+}
+
+.searchbar {
+  width: 100%;
+  margin: 40px 0 0px 0;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+  font-size: 30px;
+  font-weight: 200;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .searchbar {
+    font-size: 10px;
+  }
+}
+
+.resultsContainer {
+  background-color: white;
+  width: 82.5%;
+  border-radius: 0px 0px 15px 15px;
+  z-index: 1;
+  position: absolute;
+}
+
+.name_container {
+  padding: 5px 0px;
+  text-align: right;
+  width: 96%;
+  margin: 0px 2%;
+  border-bottom: #dbdbdb 0.5px solid;
+}
+
+.name {
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=searchBar.module.css.map */

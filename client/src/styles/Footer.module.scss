@@ -1,0 +1,25 @@
+.footertext {
+  background-color: rgb(189, 189, 189);
+  bottom: 5px;
+  // height: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color:black;
+  text-align: center;
+}
+
+.githubname {
+  padding: 10px;
+
+}
+
+@media screen and (max-width: 375px){
+  footer {
+    font-size: 10px;
+  }
+  
+}

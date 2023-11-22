@@ -1,0 +1,235 @@
+.Navbar {
+  width: 100%;
+  top: 0;
+}
+
+.NavbarMain {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elementContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buttonblue {
+  background-color: #1114e6;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 1vw;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  max-width: auto;
+}
+
+.allUsersbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #9100BA;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 1vw;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  max-width: auto;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ff005f;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 1vw;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  max-width: auto;
+}
+
+.button:hover {
+  background-color: #1114e6;
+  color: white;
+  -webkit-animation: colourfade 0.5s;
+          animation: colourfade 0.5s;
+}
+
+.buttonblue:hover .allUsersbutton:hover {
+  background-color: #ff005f;
+  color: white;
+  -webkit-animation: colourfadereverse 0.5s;
+          animation: colourfadereverse 0.5s;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 414px) {
+  .logo {
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+  }
+}
+
+@-webkit-keyframes colourfade {
+  0% {
+    background-color: #ff005f;
+  }
+  14% {
+    background-color: #de0372;
+  }
+  26% {
+    background-color: #c10582;
+  }
+  40% {
+    background-color: #a00895;
+  }
+  53% {
+    background-color: #810ba7;
+  }
+  64% {
+    background-color: #670db6;
+  }
+  75% {
+    background-color: #4d0fc4;
+  }
+  87% {
+    background-color: #3011d4;
+  }
+  100% {
+    background-color: #1114e6;
+  }
+}
+
+@keyframes colourfade {
+  0% {
+    background-color: #ff005f;
+  }
+  14% {
+    background-color: #de0372;
+  }
+  26% {
+    background-color: #c10582;
+  }
+  40% {
+    background-color: #a00895;
+  }
+  53% {
+    background-color: #810ba7;
+  }
+  64% {
+    background-color: #670db6;
+  }
+  75% {
+    background-color: #4d0fc4;
+  }
+  87% {
+    background-color: #3011d4;
+  }
+  100% {
+    background-color: #1114e6;
+  }
+}
+
+@-webkit-keyframes colourfadereverse {
+  0% {
+    background-color: #1114e6;
+  }
+  14% {
+    background-color: #3011d4;
+  }
+  26% {
+    background-color: #4d0fc4;
+  }
+  40% {
+    background-color: #670db6;
+  }
+  53% {
+    background-color: #810ba7;
+  }
+  64% {
+    background-color: #a00895;
+  }
+  75% {
+    background-color: #c10582;
+  }
+  87% {
+    background-color: #de0372;
+  }
+  100% {
+    background-color: #ff005f;
+  }
+}
+
+@keyframes colourfadereverse {
+  0% {
+    background-color: #1114e6;
+  }
+  14% {
+    background-color: #3011d4;
+  }
+  26% {
+    background-color: #4d0fc4;
+  }
+  40% {
+    background-color: #670db6;
+  }
+  53% {
+    background-color: #810ba7;
+  }
+  64% {
+    background-color: #a00895;
+  }
+  75% {
+    background-color: #c10582;
+  }
+  87% {
+    background-color: #de0372;
+  }
+  100% {
+    background-color: #ff005f;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .button, .allUsersbutton {
+    width: 100px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .buttonblue {
+    width: 100px;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=HashtagNavBar.module.css.map */

@@ -1,0 +1,27 @@
+.hero {
+  margin-top: 100px;
+}
+
+.registerBackground {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #000000));
+  background: linear-gradient(#000000 50%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+small {
+  font-size: 20px;
+  color: #ff0000 !important;
+  background-color: #000000af;
+}
+/*# sourceMappingURL=Register.module.css.map */
